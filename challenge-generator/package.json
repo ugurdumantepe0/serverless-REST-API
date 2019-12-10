@@ -1,0 +1,16 @@
+{
+  "name": "aws-lambda-nodejs-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-8select": "^1.0.1",
+    "faker": "^4.1.0",
+    "yargs": "^11.0.0"
+  }
+}

@@ -1,0 +1,326 @@
+{
+	"info": {
+		"name": "ChallengesAPI",
+		"_postman_id": "f0b981e4-dc6b-bb91-fdd7-f3e41285d57c",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Basic",
+			"description": "",
+			"item": [
+				{
+					"name": "GetSingleChallengeByID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://7zm9z2eki1.execute-api.us-east-2.amazonaws.com/dev/stories/basic/getSingleChallengeByID/{id}",
+							"protocol": "https",
+							"host": [
+								"7zm9z2eki1",
+								"execute-api",
+								"us-east-2",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"stories",
+								"basic",
+								"getSingleChallengeByID",
+								"{id}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllChallenges",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://7zm9z2eki1.execute-api.us-east-2.amazonaws.com/dev/stories/basic/getAllChallenges",
+							"protocol": "https",
+							"host": [
+								"7zm9z2eki1",
+								"execute-api",
+								"us-east-2",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"stories",
+								"basic",
+								"getAllChallenges"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Filter",
+			"description": "",
+			"item": [
+				{
+					"name": "FilterByRating",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://7zm9z2eki1.execute-api.us-east-2.amazonaws.com/dev/stories/filter/filterByRating/{ratingRange}",
+							"protocol": "https",
+							"host": [
+								"7zm9z2eki1",
+								"execute-api",
+								"us-east-2",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"stories",
+								"filter",
+								"filterByRating",
+								"{ratingRange}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "FilterByName",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://7zm9z2eki1.execute-api.us-east-2.amazonaws.com/dev/stories/filter/filterByName/{name}",
+							"protocol": "https",
+							"host": [
+								"7zm9z2eki1",
+								"execute-api",
+								"us-east-2",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"stories",
+								"filter",
+								"filterByName",
+								"{name}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "FilterByID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://7zm9z2eki1.execute-api.us-east-2.amazonaws.com/dev/stories/filter/filterByID/{id}",
+							"protocol": "https",
+							"host": [
+								"7zm9z2eki1",
+								"execute-api",
+								"us-east-2",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"stories",
+								"filter",
+								"filterByID",
+								"{id}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "FilterByDifficulty",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://7zm9z2eki1.execute-api.us-east-2.amazonaws.com/dev/stories/filter/filterByDifficulty/{difficulty}",
+							"protocol": "https",
+							"host": [
+								"7zm9z2eki1",
+								"execute-api",
+								"us-east-2",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"stories",
+								"filter",
+								"filterByDifficulty",
+								"{difficulty}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Sort",
+			"description": "",
+			"item": [
+				{
+					"name": "SortByRating",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"disabled": true
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "https://7zm9z2eki1.execute-api.us-east-2.amazonaws.com/dev/stories/sort/sortByRating/{sortOrder}",
+							"protocol": "https",
+							"host": [
+								"7zm9z2eki1",
+								"execute-api",
+								"us-east-2",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"stories",
+								"sort",
+								"sortByRating",
+								"{sortOrder}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "SortByName",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://7zm9z2eki1.execute-api.us-east-2.amazonaws.com/dev/stories/sort/sortByName/{sortOrder}",
+							"protocol": "https",
+							"host": [
+								"7zm9z2eki1",
+								"execute-api",
+								"us-east-2",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"stories",
+								"sort",
+								"sortByName",
+								"{sortOrder}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "SortByRating",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://7zm9z2eki1.execute-api.us-east-2.amazonaws.com/dev/stories/sort/sortByRating/{sortOrder}",
+							"protocol": "https",
+							"host": [
+								"7zm9z2eki1",
+								"execute-api",
+								"us-east-2",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"stories",
+								"sort",
+								"sortByRating",
+								"{sortOrder}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "SortByDifficulty",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://7zm9z2eki1.execute-api.us-east-2.amazonaws.com/dev/stories/sort/sortByDifficulty/{sortOrder}",
+							"protocol": "https",
+							"host": [
+								"7zm9z2eki1",
+								"execute-api",
+								"us-east-2",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"dev",
+								"stories",
+								"sort",
+								"sortByDifficulty",
+								"{sortOrder}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "SortByDateCreated",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
