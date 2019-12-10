@@ -1,6 +1,5 @@
-# Challenge
+# Serverless REST API
 
-- [Deutsch](de.md)
-- [English](en.md)
+- [Requirements](en.md)
 
-- [Ugur's notes](ugur.md)
+- [Notes of implementation](ugur.md)
